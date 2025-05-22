@@ -1,0 +1,51 @@
+main_page:
+  image_toolsqa: //img[@src='/images/Toolsqa.jpg']
+  btn_elements: //div[@class='card-body']/h5[text()='Elements']/ancestor::div[@class='card mt-4 top-card']
+  btn_bsa: //div[@class='card-body']/h5[text()='Book Store Application']/ancestor::div[@class='card mt-4 top-card']
+
+element_manu_page:
+  text_box:
+    btn_text_box: //span[contains(text(),'Text Box')]
+    txt_full_name: //input[@id='userName']
+    txt_email: //input[@id='userEmail']
+    txt_currentAddress: //textarea[@id='currentAddress']
+    txt_permanentAddress: //textarea[@id='permanentAddress']
+    btn_submit: //button[@id='submit']
+    btn_bsa: //div[contains(text(),'Book Store Application')]
+    txa_text_box: //div[@id="output"]//p
+  check_box:
+    btn_check_box: //span[contains(text(),'Check Box')]
+    chb_home: //span[@class='rct-checkbox']
+    txa_check_box: //div[@id='result']//span [@class='text-success']
+    txa_respose: //div[@id='result']/span[contains(text(), 'You have selected :')]
+  radio_btn:
+    btn_radio_menu: //span[contains(text(),'Radio Button')]
+    txn_question: //div[@class='mb-3']
+    btn_radio: //input[@type='radio'][@name='like']
+    btn_radio_yes: //label[@class='custom-control-label'][@for='yesRadio']
+    btn_radio_impressive: //label[@class='custom-control-label'][@for='impressiveRadio']
+    btn_radio_veri: //label[@for='***replace***']
+    btn_dis_radio: //input[@id='noRadio']
+    txt_response_select: //span[@class='text-success']
+  web_tables_menu:
+    btn_web_tables_menu: //span[contains(text(),'Web Tables')]
+    btn_add: //button[@id='addNewRecordButton']
+    registration_form:
+      txt_registration_form: //div[@id='registration-form-modal']
+      lbl_first_name: //label[@id='firstName-label']
+      lbl_last_name: //label[@id='lastName-label']
+      lbl_email: //label[@id='userEmail-label']
+      lbl_age: //label[@id='age-label']
+      lbl_salary: //label[@id='salary-label']
+      lbl_department: //label[@id='department-label']
+      btn_submit: //button[@id='submit']
+    input_registration_form:
+      txt_first_name: //input[@id='firstName']
+      txt_last_name: //input[@id='lastName']
+      txt_email: //input[@id='userEmail']
+      txt_age: //input[@id='age']
+      txt_salary: //input[@id='salary']
+      txt_department: //input[@id='department']
+  links_page:
+    links_page_menu: //span[@class='text' and text()='Links']
+    lnk_simpleLink: //a[@id='simpleLink']
