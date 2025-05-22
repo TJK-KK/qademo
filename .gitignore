@@ -1,0 +1,18 @@
+result/
+log.html
+output.xml
+report.html
+.idea/
+pythonlibs/*.pyc
+*.png
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.DS_Store

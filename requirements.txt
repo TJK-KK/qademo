@@ -1,0 +1,12 @@
+selenium==4.27.1
+robotframework==7.1.1
+robotframework-SeleniumLibrary==6.3.0
+robotframework-Selenium2Library==3.0.0
+robotframework-debuglibrary==2.5.0
+robotframework-jsonlibrary==0.5
+robotframework-requests==0.9.7
+robotframework-sshlibrary==3.8.0
+robotframework-databaselibrary==2.1.0
+PyYAML==6.0.2
+DateTime==5.5
+pymongo==4.11.1

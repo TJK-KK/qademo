@@ -1,0 +1,38 @@
+TC_001:
+  input:
+    full_name: "Tai Jaikla"
+    email: "tjk.jaikla@gmail.com"
+    current_address: "101 COUNTY ROAD 1775 LONDON AR 72847-8128 USA"
+    permanent_address: "14400 120TH PL KIRKLAND WA 98034-1153 USA"
+  verify: ['Name:Tai Jaikla', 'Email:tjk.jaikla@gmail.com', 'Current Address :101 COUNTY ROAD 1775 LONDON AR 72847-8128 USA', 'Permananet Address :14400 120TH PL KIRKLAND WA 98034-1153 USA']
+TC_002:
+  verify: ['home', 'desktop', 'notes', 'commands', 'documents', 'workspace', 'react', 'angular', 'veu', 'office', 'public', 'private', 'classified', 'general', 'downloads', 'wordFile', 'excelFile']
+  verify_massage:  "You have selected :"
+TC_003:
+  question: "Do you like the site?"
+  btn_radio: "yesRadio"
+  verify:
+    txt_you_select: "You have selected"
+    response_select: "Yes"
+TC_004:
+  question: "Do you like the site?"
+  btn_radio: "impressiveRadio"
+  verify:
+    txt_you_select: "You have selected"
+    response_select: "Impressive"
+TC_005:
+  registration_form:
+    header: "Registration Form"
+    first_name: "First Name"
+    last_name: "Last Name"
+    email: "Email"
+    age: "Age"
+    salary: "Salary"
+    department: "Department"
+  input_registration_form:
+    txt_first_name: "Tai"
+    txt_last_name: "Jaikla"
+    txt_email: "tjk.jaikla@gmail.com"
+    txt_age: "26"
+    txt_salary: "40000"
+    txt_department: "QA Engineer"
